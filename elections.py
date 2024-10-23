@@ -3,7 +3,7 @@ import pandas as pd
 from zipfile import ZipFile
 import geopandas as gpd
 
-FOLDER = '/Users/kterra/projects/streamlit-eleicoes/data-sources/'
+FOLDER = './data-sources/'
 
 def read_elections_data(year, candidate_type, location):
     file_path = os.path.join(FOLDER, f'votacao_candidato_munzona_{year}.zip')
