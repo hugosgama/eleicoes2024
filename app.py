@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import elections as el
 
-selected_year = st.sidebar.selectbox("Selecione o ano", options=[2024, 2020, 2016])
+selected_year = st.sidebar.selectbox("Selecione o ano", options=[2024])
 selected_candidate_type = st.sidebar.selectbox("Selecione o tipo de candidatura", options=['Prefeito', 'Vereador'])
-selected_location = st.sidebar.selectbox("Selecione a localidade", options=['BR', 'AC','AM', 'AL', 'AP', 'BA',
+selected_location = st.sidebar.selectbox("Selecione a localidade", options=['AC','AM', 'AL', 'AP', 'BA',
                                                                                      'CE','ES','GO' ,'MA','MG','MS','MT',
                                                                                      'PA', 'PB', 'PE', 'PI', 'PR', 'RJ',
                                                                                      'RN', 'RO','RR', 'RS','SC','SE','SP', 'TO'])
