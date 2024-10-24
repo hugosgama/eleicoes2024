@@ -15,11 +15,9 @@ def read_elections_data(year, candidate_type, location):
             if (location != 'BR'):
                 selected_df = selected_df[selected_df['SG_UF']==location].reset_index(drop=True)      
 
-
     return selected_df
 
 def merge_elections_with_partidos(selected_df, df_partidos):
-
     espec_type = pd.CategoricalDtype(categories=['direita', 'centro', 'esquerda'], ordered=True)
     df_partidos['Espectro'] = df_partidos['Espectro'].astype(espec_type)
     
