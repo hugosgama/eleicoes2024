@@ -4,6 +4,8 @@ Tecnologias utilizadas: Python, Pandas, GeoPandas, Streamlit, Plotly, Matplotlib
 
 ![image info](./imgs/demo.png)
 
+Live demo:[https://eleicoes2024.streamlit.app](https://eleicoes2024.streamlit.app) 
+
 ## Dados Utilizados
 
 Os arquivos utilizados na análise estão disponíveis nos links:
